@@ -4,8 +4,19 @@
     padding: 0px;
     background: url('Home.png') no-repeat center center fixed;
     background-size: cover;
-    box-sizing: border-box;     
+    box-sizing: border-box;  
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='48' height='58' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/   
 }
+
+
+
+
+link{
+  z-index: 7;
+  font-family: monospace;
+  font-size: 20px;
+}
+
 
 .bg{
     width: 100vh;
@@ -100,7 +111,7 @@
 
 .pol1{
    margin-top: 100px; 
-   margin-left: 80px;
+   margin-left: 35vw;
    z-index: 0;
 }
 
@@ -109,7 +120,8 @@
 }
 
 .pol2{
-    margin-left: 200px;
+  margin-top: 100px; 
+  margin-left: 35vw;
     z-index: 0;
  }
 
@@ -118,10 +130,41 @@
  }
 
  .pol3{
-    margin-left: 80px;
+  margin-top: 100px; 
+  margin-left: 35vw;
     z-index: 0;
  }
 
  .pol3:hover{
     transform: scale(1.1);
  }
+
+ .pol4{
+  margin-top: 100px; 
+  margin-left: 35vw;
+    z-index: 0;
+ }
+
+ .pol4:hover{
+    transform: scale(1.1);
+ }
+
+ .pol5{
+  margin-top: 100px; 
+  margin-left: 35vw;
+    z-index: 0;}
+
+ .pol5:hover{
+    transform: scale(1.1);
+ }
+
+
+.head8{
+  font-family: monospace;
+  margin-top: 700px;
+  margin-left: 41vw;
+  font-size: 15px;
+  color: rgb(41, 40, 41);
+  margin-bottom: 400px;
+}
+
